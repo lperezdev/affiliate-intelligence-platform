@@ -1,0 +1,22 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# dbt
+target/
+dbt_packages/
+logs/
+
+# Generated/local data
+data/raw/*.csv
+data/raw/*.parquet
